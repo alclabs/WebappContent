@@ -29,6 +29,11 @@ The index.jsp file in this project has some example JavaScript to handle this.  
 action property of the form element, changes it to addon_content, and inserts the necessary
 hidden input fields to make the post work correctly.
 
+Building the Project
+--------------------
+This project includes the files necessary to build the add-on using Gradle.  Run `gradlew build`
+from the command line (this should work on Windows, OS X, or Linux).
+
 Conclusions
 -----------
 It is awkward to do this now.  The WebApp Content Control was not designed with this use case
